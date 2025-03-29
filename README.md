@@ -1,8 +1,13 @@
-# React from Scratch with Webpack and Babel
+# 🔥 React from Scratch with Webpack & Babel – No CRA, No Vite, Just Pure Magic! ⚛️🚀
 
-This project demonstrates setting up a React application from scratch without using Create React App or Vite. It provides a deeper understanding of the underlying build process and configuration.
+This project demonstrates setting up a React application from scratch without using Create React App or Vite. It provides a deeper understanding of the underlying build process, Webpack bundling, and Babel transpilation for modern JavaScript applications.
 
-This enhanced Todo List application showcases fundamental React concepts, including state management, event handling, dynamic styling, and component composition. It emphasizes a practical approach to building interactive UIs while managing themes and user interactions.
+This enhanced Todo List application showcases fundamental React concepts, including state management, event handling, dynamic styling, and component composition. It also highlights how Webpack optimizes asset bundling and how Babel enables modern JavaScript and JSX compatibility across different browsers. This project emphasizes a practical approach to building interactive UIs while efficiently managing themes and user interactions. 🚀
+
+## Live App: [https://chanchal-kumar-mandal.github.io/react-from-scratch-webpack-babel/](https://chanchal-kumar-mandal.github.io/react-from-scratch-webpack-babel/)
+
+## Demo Screenshots
+
 
 ## 1. Project Setup
 
