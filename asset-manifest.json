@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/react-from-scratch-webpack-babel/static/js/main.ffee06f4.js",
+    "index.html": "/react-from-scratch-webpack-babel/index.html",
+    "main.ffee06f4.js.map": "/react-from-scratch-webpack-babel/static/js/main.ffee06f4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ffee06f4.js"
+  ]
+}
