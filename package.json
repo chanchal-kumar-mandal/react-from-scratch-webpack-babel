@@ -1,12 +1,16 @@
 {
+  "homepage": "https://chanchal-kumar-mandal.github.io/react-from-scratch-webpack-babel",
   "name": "react-from-scratch-webpack-babel",
   "version": "1.0.0",
   "description": "This 𝐑𝐞𝐚𝐜𝐭-𝐛𝐚𝐬𝐞𝐝 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 serves as a practical guide to ReactJS concepts using 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧-𝐁𝐚𝐬𝐞𝐝 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬 and 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒 for styling. The project demonstrates a variety of ReactJS features, including  𝐬𝐭𝐚𝐭𝐞 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭, 𝐜𝐨𝐧𝐭𝐞𝐱𝐭, 𝐟𝐨𝐫𝐦 𝐡𝐚𝐧𝐝𝐥𝐢𝐧𝐠, 𝐀𝐏𝐈 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐨𝐧, and more. It's an all-in-one learning platform for mastering ReactJS components and building interactive user interfaces with modern tools.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +25,7 @@
     "@babel/preset-react": "^7.26.3",
     "babel-loader": "^10.0.0",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.98.0",
